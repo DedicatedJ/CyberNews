@@ -18,11 +18,13 @@
     "typescript": "^4.9.5",
     "web-vitals": "^3.5.2"
   },
-  "resolutions": {
+  "overrides": {
     "nth-check": "^2.1.1",
     "postcss": "^8.4.31",
     "css-select": "^4.3.0",
-    "svgo": "^3.2.0"
+    "svgo": "^3.2.0",
+    "@svgr/webpack": "^8.1.0",
+    "resolve-url-loader": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
